@@ -11,7 +11,7 @@ def decode_and_decompress(encoded_data):
     data = zlib.decompress(compressed_data)
     return data
 
-encoded_data = "eJwzNjECAAE2AJo="
+encoded_data = "eJwFQLEJACAM+8jsfuAZIkUdSsQGxO/Lkk5UQG9LdsugI/iteZ9MpokLKA=="
 data = decode_and_decompress(encoded_data)
 
 print(data)
